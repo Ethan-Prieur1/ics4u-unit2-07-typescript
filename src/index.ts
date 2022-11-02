@@ -1,13 +1,13 @@
 /*
-* This program is a vehicle class.
-*
-* @author  Ethan Prieur
-* @version 1.0
-* @since   2020-11-01
-*/
+ * This program is a vehicle class.
+ *
+ * @author  Ethan Prieur
+ * @version 1.0
+ * @since   2020-11-01
+ */
 
-import { Truck } from "./Truck"
-import { Bike } from "./Bike"
+import { Truck } from './Truck'
+import { Bike } from './Bike'
 
 const bmx = new Bike('Red', 40)
 
