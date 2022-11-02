@@ -9,20 +9,14 @@
 class Vehicle {
   public speed: number = 0
   public maxSpeed: number
-  public doorAmount: number
-  public licensePlate: string
   public colour: string
 
   constructor(
     colour: string,
-    licensePlate: string,
-    doorAmount: number,
     maxSpeed: number
   ) {
-    this.licensePlate = licensePlate
     this.colour = colour
     this.maxSpeed = maxSpeed
-    this.doorAmount = doorAmount
   }
 
   // getters
@@ -32,14 +26,6 @@ class Vehicle {
 
   public getMaxSpeed(): number {
     return this.maxSpeed
-  }
-
-  public getDoorAmount(): number {
-    return this.doorAmount
-  }
-
-  public getLicensePlate(): string {
-    return this.licensePlate
   }
 
   public getColour(): string {

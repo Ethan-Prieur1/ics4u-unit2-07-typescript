@@ -6,8 +6,8 @@
  * @since   2020-11-01
  */
 
-import { Truck } from './Truck'
-import { Bike } from './Bike'
+import Truck from './Truck'
+import Bike from './Bike'
 
 const bmx = new Bike('Red', 40)
 
@@ -15,7 +15,7 @@ console.log('Created Bmx bike.\nStatus:\n')
 bmx.status()
 
 console.log('Set the cadense to 10\n')
-bmx.cadense = 10
+bmx.cadence = 10
 bmx.status()
 
 console.log('\nAccelerate by 15:')

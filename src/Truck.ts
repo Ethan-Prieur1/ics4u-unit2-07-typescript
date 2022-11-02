@@ -6,6 +6,8 @@
  * @since   2020-11-01
  */
 
+import Vehicle from './Vehicle'
+
 class Truck extends Vehicle {
   private licensePlate: string
 
