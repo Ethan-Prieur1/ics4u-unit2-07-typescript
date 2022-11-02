@@ -11,10 +11,7 @@ class Vehicle {
   public maxSpeed: number
   public colour: string
 
-  constructor(
-    colour: string,
-    maxSpeed: number
-  ) {
+  constructor(colour: string, maxSpeed: number) {
     this.colour = colour
     this.maxSpeed = maxSpeed
   }
