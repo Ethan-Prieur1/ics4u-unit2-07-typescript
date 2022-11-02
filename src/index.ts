@@ -1,9 +1,9 @@
 /*
 * This program is a vehicle class.
 *
-* @author  Mr Coxall
+* @author  Ethan Prieur
 * @version 1.0
-* @since   2020-01-01
+* @since   2020-11-01
 */
 
 import { Truck } from "./Truck"
