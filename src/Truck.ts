@@ -11,14 +11,9 @@ import Vehicle from './Vehicle'
 class Truck extends Vehicle {
   private licensePlate: string
 
-  constructor(
-    colour: string,
-    licensePlate: string,
-    doorAmount: number,
-    maxSpeed: number
-  ) {
+  constructor(colour: string, maxSpeed: number, licensePlate: string) {
+    super(colour, maxSpeed)
     this.licensePlate = licensePlate
-    this.maxSpeed = maxSpeed
   }
 
   public status(): void {
@@ -26,7 +21,7 @@ class Truck extends Vehicle {
       `        --> Speed: ${super.getSpeed()}
         --> MaxSpeed: ${super.getMaxSpeed()}
         --> License Plate: ${this.licensePlate}
-        --> Color: ${super.getColor()}`
+        --> Colour: ${super.getColour()}`
     )
   }
 

@@ -15,7 +15,7 @@ console.log('Created Bmx bike.\nStatus:\n')
 bmx.status()
 
 console.log('Set the cadense to 10\n')
-bmx.cadence = 10
+bmx.accelerate(10)
 bmx.status()
 
 console.log('\nAccelerate by 15:')
@@ -23,6 +23,7 @@ bmx.accelerate(15)
 bmx.status()
 
 console.log('\nRing bell.')
+bmx.ringBell()
 
 const bigTruck = new Truck('Grey', 200, 'HGC-3456F')
 
@@ -38,7 +39,7 @@ bigTruck.accelerate(10, 10)
 console.log('New speed: ' + bigTruck.speed)
 
 console.log('\nApplyed air pressure of 10:')
-bigTruck.applyAir(10)
+bigTruck.provideAir(10)
 console.log('New speed: ' + bigTruck.speed)
 
 console.log('\nDone.')

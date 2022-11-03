@@ -16,7 +16,7 @@ class Bike extends Vehicle {
     console.log(
       `        --> Speed: ${super.getSpeed()}
           --> MaxSpeed: ${super.getMaxSpeed()}
-          --> Color: ${super.getColor()}
+          --> Color: ${super.getColour()}
           --> Cadence: ${this.cadence}\n`
     )
   }

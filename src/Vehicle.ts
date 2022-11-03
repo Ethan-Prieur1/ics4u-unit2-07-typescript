@@ -29,13 +29,12 @@ class Vehicle {
     return this.colour
   }
 
-  // setters
-  public setLicensePlate(thePlate: string): void {
-    this.licensePlate = thePlate
-  }
-
   public setColour(theColour: string): void {
     this.colour = theColour
+  }
+
+  public setSpeed(theSpeed: number): void {
+    this.speed = theSpeed
   }
 
   public accelerate(accelerationPower: number, accelerationTime: number): void {
@@ -58,8 +57,6 @@ class Vehicle {
     console.log(
       `        --> Speed: ${this.speed}
         --> MaxSpeed: ${this.maxSpeed}
-        --> Number of doors: ${this.doorAmount}
-        --> License Plate: ${this.licensePlate}
         --> Colour: ${this.colour}`
     )
   }
